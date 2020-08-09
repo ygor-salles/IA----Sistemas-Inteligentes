@@ -1,0 +1,17 @@
+	pessoa = symbol.
+	
+predicates.
+	ve (pessoa,pessoa)
+	feliz(pessoa)
+	triste(pessoa)
+
+clauses.
+	ve (caludia,alexandre).
+	ve (joao,maria).
+	ve (pedro,ana).
+	ve (tiago,paulo).
+	ve (tiago,maria).
+	ve (joao,joao).
+	ve (paula,paulo).
+	feliz(paulo) if ve(paula,paulo).
+	triste(Alguem) :- ve(tiago,Alguem).

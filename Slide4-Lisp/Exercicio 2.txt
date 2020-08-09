@@ -1,0 +1,9 @@
+
+//Para Cadastrar
+
+(setq nome'(Maria Julia) dataNascimento'(18.04.1996) endereco'(Rua Joaquim Machado. Centro. Itajubá))
+
+
+//Para recuperar
+
+dataNascimento

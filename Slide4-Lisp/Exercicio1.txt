@@ -1,0 +1,13 @@
+(car '(a b (c d) e f))
+
+(cdr '(a b (c d) e f))
+
+(car '(Av BPS 1303 Pinheiro Itajubá))
+
+(cdr '(Av BPS 1303 Pinheiro Itajubá))
+
+(car '(Jorge Paulo Ana Pedro Thiago))
+
+(cdr '(Jorge Paulo Ana Pedro Thiago))
+
+(list '((José da Silva Machado) (Nascimento: 18/07/1996) (Endereço (Rua: Professor Clarindo de Almeida) (Bairro: Centro) (Cidade: Paraiso) ) ))

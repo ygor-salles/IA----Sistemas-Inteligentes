@@ -1,0 +1,18 @@
+domains.
+	pessoa = symbol.
+
+predicates.
+	ve(pessoa, pessoa).
+
+clauses.
+	ve(claudia, alexandre).
+	ve(joao, maria).
+	ve(pedro, ana).
+	ve(tiago, paulo).
+	ve(tiago, maria).
+	ve(joao, joao).
+	ve(paula, paulo).
+
+
+%Execução
+%ve(claudia,_)

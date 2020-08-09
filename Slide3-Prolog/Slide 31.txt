@@ -1,0 +1,8 @@
+predicates
+	dialago.
+
+clauses
+	dialago :- nl, nl,
+    		write ("Qual seu nome? ")
+    		readln(Nome), nl,
+    		write("Olá','',Nome,"."),nl.

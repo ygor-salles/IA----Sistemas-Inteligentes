@@ -1,0 +1,6 @@
+(defun raizes(a b c)
+  (let ((raiz-a (/ (- b) (* 2.0 a)))
+    (raiz-b (/ (sqrt (abs (- (expt b 2) (* 4 a c )))) (* 2.0 a))))
+    (if (> (* 4 a c) (expt b 2))
+    `((,raiz-a ,(- raiz-b)) (,raiz-a ,raiz-b))
+      `((,(- raiz-a raiz-b)) (,(+ raiz-a raiz-b))))))

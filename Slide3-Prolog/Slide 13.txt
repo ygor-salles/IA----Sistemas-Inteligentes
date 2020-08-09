@@ -1,0 +1,13 @@
+
+domains.
+	coisa = symbol.
+predicates.
+	animal(coisa).
+	vegetal(coisa).
+goal.
+
+clauses.
+	animal(vaca).
+	animal(morcego).
+
+	
